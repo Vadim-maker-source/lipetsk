@@ -22,6 +22,8 @@ const Login: React.FC = () => {
     <div className="sign-main">
       <img src="/assets/logo.svg" alt="logo" />
       {error && <p>{error}</p>}
+      для цифр ветра: логин - gggg@gmail.com
+      пароль - 34343434
       <form onSubmit={handleSubmit}>
         <div>
           <label>Почта:</label>
@@ -44,7 +46,7 @@ const Login: React.FC = () => {
         <button type="submit">Войти</button>
       </form>
       <p>
-        Нет аккаунта? <a href="/sign-up">Зарегистрируйтесь</a>
+        
       </p>
     </div>
   );
